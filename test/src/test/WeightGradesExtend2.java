@@ -63,8 +63,8 @@ public class WeightGradesExtend2 {
 		// TODO Auto-generated method stub
 		//create a new class
 		WeightGradesExtend2 grade=new WeightGradesExtend2();
-		grade.totalPoints=new ArrayList<Double>();
-		grade.percentage=new ArrayList<Double>();
+		grade.setTotalPoints(new ArrayList<Double>());
+		grade.setPercentage(new ArrayList<Double>());
 		Scanner sc=new Scanner (System.in);
 		while(true) {
 			System.out.print("Input your total points of each assigment, input -1 if there is no more assignment");
